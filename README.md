@@ -91,7 +91,7 @@ You should now be able to see two different subscription keys that you can use. 
 
 ## Using the API Key in the App
 To use the API Key in the app, you need to only change 2 lines of code, one in [`MainActivity.java`](https://github.com/ishaanjav/InfoSystemV1_-_Visitor_Device/blob/master/app/src/main/java/com/example/anany/informationsystemv1/MainActivity.java) and the other in [`CreateAccount2.java`](https://github.com/ishaanjav/InfoSystemV1_-_Visitor_Device/blob/master/app/src/main/java/com/example/anany/informationsystemv1/CreateAccount2.java)
-On lines 176 and 145 of `MainActivity.java` and `CreateAccount2.java`, respectively, you should see the following line:
+**On lines 176 and 145 of `MainActivity.java` and `CreateAccount2.java`**, respectively, you should see the following line:
     
     faceServiceClient = new FaceServiceRestClient("<YOUR API ENDPOINT HERE>", "<YOUR API KEY HERE>");
 Replace `<YOUR API SUBSCRIPTION KEY>` with one of your 2 keys from the [Azure Portal](https://portal.azure.com/#home). *(If you haven't gotten your API Key yet, read [this section](#making-the-azure-account))*. `<YOUR ENDPOINT HERE>` should be replaced with one of the following examples from [this API Documentation link](https://westus.dev.cognitive.microsoft.com/docs/services/563879b61984550e40cbbe8d/operations/563879b61984550f30395236). The format should be similar to: 
@@ -100,4 +100,6 @@ Replace `<YOUR API SUBSCRIPTION KEY>` with one of your 2 keys from the [Azure Po
   
 where `<LOCATION>` should be replaced with something like `uksouth.api.cognitive.microsoft.com`.
 
+#### With these changes made, the app should function as intended. However, it is not meant to be a stand-alone app and is intended to be used with the following apps: [Caretaker App Repository](). [Resident App Repository]().
+## Links ABOVE
 
