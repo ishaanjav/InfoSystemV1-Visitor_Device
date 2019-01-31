@@ -1,4 +1,4 @@
-# InfoSystemV1 - Visitor_Device
+# Info System V1 - Visitor Device
 
 ## Purpose/Background
 <img align="right" src="https://github.com/ishaanjav/InfoSystemV1_-_Visitor_Device/blob/master/Login%20Page.gif" width =360>
@@ -10,3 +10,42 @@ Before being able to use their account to sign in to the system, the visitor mus
 **Furthermore, the caretaker is able to view a record of all events that have taken place, empowering them with this information.** For those in the later stages of Alzheimer's, the patient can also view the information about the visitor including useful details like their picture, relation to the patient (family member, friend, etc.), and extended description (a well-explained description of who the visitor is). This gives the patient the ability to understand who is visiting them and be able to respond and act in accordance rather than not know who is visiting them.
 
 ###### This app is a part of a system of 3 other apps that function together to accomplish the processes and purposes described above. It is **not** a stand-alone app and is meant to be used in collaboration with the two other apps that can be found at these repositories: CARETAKER APP REPOSITORY, RESIDENT APP RESPOSITORY.
+
+-----
+
+## Usage
+Because this app has an important purpose of helping those with Alzheimer's and dementia, it is not as simple as some of [my other apps](https://github.com/ishaanjav). The app has multiple pages:
+
+- 1 for setup
+- 1 for logging into the system
+- 1 for "About This App"
+- 2 for creating an account
+- 1 for confirming that the account has been sent for approval.
+
+### Features of This App
+Features and purposes of this app include, but are not limited to:
+- New visitors creating accounts for the caretaker to approve.
+- Visitors receiving their account information if they forget their usernames and passwords.
+- Visitor sign-ins through usernames and passwords.
+- Visitor sign-ins through facial recognition.
+- Worker sign-ins through a special section at the bottom.
+- Visitor logouts.
+- Notification to caretaker and resident of:
+   * sign-ins
+   * account creations by new visitors
+   * failed logins
+ 
+### Login Page
+<img src = "https://github.com/ishaanjav/InfoSystemV1_-_Visitor_Device/blob/master/Login%20Page%20Image.jpeg" align="right" width="330">
+
+The image on the right shows the Login Page. There is an option for new visitors to **create an account** by clicking on the text. Additionally, if a user has **forgotten their account details**, they can click on the "Forgot Your Password" text to enter their username and their account info will be sent to them with the email address/phone number they provided when creating an account. 
+
+For visitors who want to sign in, there are two options, one is through the **username and password** `EditTexts` and the other is through **Facial Recognition**. *Facial Recognition was implemented using Weka's Machine Learning Library, Firebase's ML Kit, and the Microsoft Face API.* The facial data of users is stored on the device and is not sent to the cloud. 
+
+Underneath the sign-in section for frequent visitors is the **log out** section. Visitors simply have to tap on their name in the "Log Out" Section to log out. Their name is added to the `ListView` after signing in.
+
+Finally, there is a sign-in section at the bottom for workers who may not be visiting frequently or more than once. This section is useful for the caretaker because workers sign in with their company's name, service they're providing, and their own name (optional). The caretaker can view this information on their own app in a page called "Log of Events". *The Caretaker app's [repository]() can be found [here]().*
+### Link ABOVE
+
+
+
