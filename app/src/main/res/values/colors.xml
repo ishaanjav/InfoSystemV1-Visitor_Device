@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorcool">#6acdfb</color>
+    <color name="green">#2ea809</color>
+    <color name= "low1">#ff0000</color>
+    <color name="low2">#ffa600</color>
+    <color name="low3">#f2ff00</color>
+    <color name="low4">#6fff00</color>
+    <color name = "lo25">#0e8508</color>
+    <color name = "low10">#0e932d</color>
+    <color name="menubar">#1caa30</color>
+    <color name = "fade">#e7bebe</color>
+    <color name = "darkred">#932b0e</color>
+    <color name = "lightred">#F00</color>
+    <color name = "purered">#F00</color>
+    <color name = "READMORE">#0b91df</color>
+    <color name = "lightorange">#fcbc78</color>
+    <color name = "cursorcolor">#ffa600</color>
+    <color name = "lightred2">#f2e9a4</color>
+    <color name = "congratulationslight">#ffa600</color>
+    <color name = "congratulationsdark">#de7003</color>
+    <color name = "mainbar">#529cf0</color>
+    <color name = "container">#6abcf6</color>
+</resources>

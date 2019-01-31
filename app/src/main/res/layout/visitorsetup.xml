@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/visitorrelative1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#febaba"
+    android:padding="10dp">
+
+    <TextView
+
+        android:id="@+id/visitortextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="7dp"
+        android:text="Please read the information below:"
+        android:textColor="#85330a"
+        android:textSize="22sp" />
+
+
+
+    <TextView
+        android:id="@+id/unchangeable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/visitortextview"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="10dp"
+
+        android:text="Default App Permissions:"
+        android:textColor="#ff9100"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/thd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/unchangeable"
+        android:layout_marginLeft="11dp"
+android:lineSpacingExtra="5dp"
+        android:layout_marginTop="15dp"
+
+        android:text="1) SMS Capabilities - Used to send account info to visitors in case they forget it. Also visitors can use this to easily call the caretaker or resident from this device."
+        android:textColor="#c99c07"
+        android:textSize="18dp"
+
+        />
+
+    <TextView
+        android:id="@+id/thd2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thd"
+        android:layout_marginLeft="11dp"
+        android:layout_marginTop="13dp"
+        android:lineSpacingExtra="5dp"
+
+        android:text="2) Email - Another method used to send visitors their account info."
+        android:textColor="#b08906"
+        android:textSize="18dp"
+
+        />
+
+    <TextView
+        android:id="@+id/thd4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thd2"
+        android:layout_marginTop="13dp"
+        android:layout_marginLeft="11dp"
+        android:text="3) Camera - Visitors can use the camera to take a picture of themselves when creating a new account. When a visitor signs in, the resident will get to see the description of the visitor as well as their photo."
+        android:textColor="#937106"
+        android:lineSpacingExtra="5dp"
+
+        android:textSize="18dp"
+
+        />
+
+  <!--  <Button
+        android:id="@+id/requestpermissions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/thd4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:text="Grant Permssions"
+        android:textSize="18dp"
+
+        />
+-->
+</RelativeLayout>

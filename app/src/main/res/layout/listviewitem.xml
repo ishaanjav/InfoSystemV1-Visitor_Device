@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/successfull"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/successfull"
+        android:textColor="#00a2ff"
+        android:textSize="32dp" />
+
+
+    <TextView
+        android:id="@+id/nametext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/errortext"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="70dp"
+
+        android:text="Full Name:"
+        android:theme="@style/CreateAccount" />
+
+    <EditText
+        android:id="@+id/nameedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/errortext"
+        android:layout_marginLeft="263dp"
+        android:layout_marginTop="61dp"
+
+        android:cursorVisible="true"
+        android:ems="13"
+        android:hint=""
+        android:inputType="textPersonName|textCapWords"
+        android:textColor="#FF2C8BFF"
+     
+
+        android:textCursorDrawable="@null"
+
+        android:theme="@style/userinfo" />
+
+
+    <TextView
+        android:id="@+id/usernametext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nametext"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="25dp"
+        android:text="Username:"
+        android:theme="@style/CreateAccount" />
+
+
+    <EditText
+        android:id="@+id/usernameedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nametext"
+        android:layout_marginLeft="263dp"
+
+        android:layout_marginTop="13dp"
+        android:ems="13"
+        android:hint=""
+        android:inputType="textPersonName"
+        android:textColor="#FF2C8BFF"
+
+        android:textCursorDrawable="@null"
+
+        android:theme="@style/userinfo" />
+
+    <TextView
+        android:id="@+id/passwordtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usernameedit"
+        android:layout_marginLeft="32dp"
+
+        android:layout_marginTop="25dp"
+        android:text="Password:"
+        android:theme="@style/CreateAccount" />
+
+
+    <EditText
+        android:id="@+id/passwordedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usernameedit"
+        android:layout_marginLeft="263dp"
+        android:layout_marginTop="22dp"
+        android:ems="13"
+        android:hint=""
+        android:inputType="textPassword"
+        android:textColor="#FF2C8BFF"
+
+
+        android:textCursorDrawable="@null"
+
+        android:theme="@style/userinfo" />
+
+
+    <TextView
+        android:id="@+id/phonetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordedit"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/phonehelp"
+        android:text="Phone Number:"
+        android:theme="@style/CreateAccount" />
+
+    <EditText
+        android:id="@+id/phoneedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordedit"
+        android:layout_marginLeft="263dp"
+
+        android:layout_marginTop="18dp"
+
+        android:ems="13"
+        android:inputType="phone"
+        android:textColor="#FF2C8BFF"
+        android:textCursorDrawable="@null"
+
+        android:theme="@style/userinfo" />
+
+
+    <TextView
+        android:id="@+id/emailtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phoneedit"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="20dp"
+        android:text="Email:"
+        android:theme="@style/CreateAccount" />
+
+    <EditText
+        android:id="@+id/emailedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phoneedit"
+
+        android:layout_marginLeft="263dp"
+
+        android:layout_marginTop="17dp"
+        android:ems="13"
+        android:inputType="textEmailAddress"
+        android:textColor="#FF2C8BFF"
+
+        android:textCursorDrawable="@null"
+        android:theme="@style/userinfo" />
+
+    <TextView
+        android:id="@+id/relationtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailedit"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="20dp"
+        android:text="Relation:"
+        android:theme="@style/CreateAccount" />
+
+    <EditText
+        android:id="@+id/relationedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailedit"
+
+        android:layout_marginLeft="263dp"
+
+        android:layout_marginTop="17dp"
+        android:ems="13"
+        android:inputType="textCapWords"
+        android:textColor="#FF2C8BFF"
+
+        android:textCursorDrawable="@null"
+        android:theme="@style/userinfo" />
+
+    <TextView
+        android:id="@+id/descriptiontext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/relationedit"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="25dp"
+        android:text="Description:"
+        android:theme="@style/CreateAccount" />
+
+    <EditText
+        android:id="@+id/descriptionedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descriptiontext"
+
+        android:layout_marginLeft="32dp"
+
+        android:layout_marginTop="-5dp"
+        android:ems="24"
+        android:inputType="textMultiLine"
+        android:textColor="#FF2C8BFF"
+
+        android:textCursorDrawable="@null"
+        android:theme="@style/userinfo" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descriptionedit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+
+        app:cardCornerRadius="14dp"
+        app:cardElevation="3dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00a2ff"
+            android:paddingBottom="8sp"
+            android:paddingLeft="12sp"
+            android:paddingRight="12sp"
+            android:paddingTop="8sp"
+
+            android:text="Save"
+
+            android:textColor="#ffffff"
+            android:textSize="25sp"
+
+
+            />
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

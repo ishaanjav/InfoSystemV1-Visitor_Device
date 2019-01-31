@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="460sp"
+    android:layout_height="300sp">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:fontFamily="@font/caviardreams"
+        android:text="So you forgot your password?"
+        android:textAlignment="center"
+        android:textColor="#0059ff"
+        android:textSize="29sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_below="@id/title"
+        android:layout_marginTop="4dp"
+        android:background="#0084ff"></RelativeLayout>
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="18dp"
+        android:fontFamily="@font/caviardreamsitalci"
+        android:text="Enter your username and your password will be sent to the email you provided when you created an account."
+        android:textAlignment="center"
+        android:textColor="#0088ff"
+        android:textSize="23sp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/message"
+        android:id = "@+id/errorhere"
+        android:layout_centerHorizontal="true"
+        android:textSize="21dp"
+        android:text = ""
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#f00"
+        />
+
+    <EditText
+        android:id="@+id/dialogEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:ems="9"
+        android:inputType="textFilter"
+        android:layout_below="@id/message"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#005eff"
+        android:hint="Username:"
+        android:textColor="#003cff"
+        android:textColorHint="#005eff"
+        android:textCursorDrawable="@null"
+        android:textSize="23dp" />
+
+    <Button
+        android:id="@+id/Enter"
+        android:layout_width="230sp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:background="#0080ff"
+        android:text="Enter"
+        android:layout_alignParentBottom="true"
+        android:textAlignment="center"
+        android:textColor="#00ddff"
+        android:textSize="25sp"
+
+        />
+
+    <Button
+        android:id="@+id/cancel_action"
+        android:layout_width="230sp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:textAlignment="center"
+        android:background="#00ddff"
+        android:text="Cancel"
+        android:textColor="#0080ff"
+        android:textSize="25sp"
+        android:layout_alignParentBottom="true"
+
+        />
+
+</RelativeLayout>
+
+
+    <!--
+    <?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/alertedit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:hint="Enter your username"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/dialog_cancel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/alertedit" />
+
+        <Button
+            android:id="@+id/dialog_ok"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/alertedit" />
+
+
+    </RelativeLayout>-->

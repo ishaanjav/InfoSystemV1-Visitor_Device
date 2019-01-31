@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/visitorrelative3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#febaba"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/residentrules"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="7dp"
+        android:text="Please read and fill in the information below:"
+        android:textColor="#85330a"
+        android:textSize="21sp" />
+
+    <EditText
+        android:id="@+id/residentname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/residentrules"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#930a0a"
+        android:hint="Enter the resident’s name"
+
+        android:textColorHint="#F00"
+        android:textSize="19sp" />
+
+    <EditText
+        android:id="@+id/residentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/residentname"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#a75e0a"
+        android:hint="Enter the resident’s age"
+        android:textColorHint="#ff8c00"
+        android:textSize="19sp" />
+
+    <EditText
+        android:id="@+id/residentphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/residentage"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#a75e0a"
+        android:hint="Enter the resident’s phone number"
+        android:textColorHint="#d7890b"
+        android:textSize="19sp" />
+
+    <EditText
+        android:id="@+id/residentaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/residentphone"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#be980c"
+        android:hint="Enter the resident’s address"
+        android:textColorHint="#957712"
+        android:textSize="19sp" />
+</RelativeLayout>

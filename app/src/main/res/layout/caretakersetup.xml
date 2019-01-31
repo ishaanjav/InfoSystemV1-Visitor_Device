@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/visitorrelative2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#febaba"
+    android:padding="10dp">
+
+    <TextView
+
+        android:id="@+id/visitortextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="7dp"
+        android:text="Please read and fill in the information below:"
+        android:textColor="#85330a"
+        android:textSize="21sp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="#db3636"
+        android:paddingLeft="5dp"
+        android:textSize="19dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/visitortextview"
+        android:id = "@+id/aloowusers"
+        android:text="Block users from exiting this app"
+
+        android:textColor="#af2e03" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems = "22"
+        android:id = "@+id/years"
+        android:textColor="#ff6a00"
+        android:cursorVisible="true"
+        android:layout_marginLeft = "10dp"
+        android:layout_below="@id/aloowusers"
+        android:layout_marginTop="7dp"
+        android:textCursorDrawable="@null"
+        android:backgroundTint="#930a0a"
+
+        android:textColorHint="#F00"
+        android:textSize="18dp"
+        android:hint = "How long have you been a caretaker for the resident?"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems = "15"
+        android:id = "@+id/caretakername"
+        android:textColor="#ff6a00"
+        android:cursorVisible="true"
+        android:layout_marginLeft = "10dp"
+        android:layout_below="@id/years"
+        android:layout_marginTop="12dp"
+        android:textCursorDrawable="@null"
+        android:backgroundTint="#930a0a"
+
+        android:textColorHint="#F00"
+        android:textSize="18dp"
+        android:hint = "What is your name?"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems = "10"
+        android:id = "@+id/caretakerusername"
+        android:textColor="#ff6a00"
+        android:cursorVisible="true"
+        android:layout_marginLeft = "10dp"
+        android:layout_below="@id/caretakername"
+        android:layout_marginTop="12dp"
+        android:textCursorDrawable="@null"
+        android:backgroundTint="#930a0a"
+
+        android:textColorHint="#F00"
+        android:textSize="18dp"
+        android:hint = "Create a username"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems = "10"
+        android:id = "@+id/caretakerpassword"
+        android:textColor="#ff6a00"
+        android:cursorVisible="true"
+        android:layout_marginLeft = "10dp"
+        android:layout_below="@id/caretakerusername"
+        android:layout_marginTop="12dp"
+        android:textCursorDrawable="@null"
+        android:backgroundTint="#930a0a"
+
+        android:textColorHint="#F00"
+        android:textSize="18dp"
+        android:hint = "Create a password"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/defaultcaretaker"
+        android:layout_below="@id/caretakerpassword"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="15dp"
+        android:textColor = "#704d0e"
+        android:paddingBottom="10dp"
+        android:text = "By default, you will be notified each time a visitor signs in.\nYou will also be in charge of approving or declining new user accounts.\nIn addition, you will be able to track the patient's location and ensure that they are in a safe location."
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/redgradient"
+    tools:context=".AboutApp">
+
+    <RelativeLayout
+        android:id="@+id/card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="12dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#e0a3a3"
+                android:paddingBottom="9dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="8dp"
+                android:text="Hello!"
+                android:textColor="#a60303"
+
+                android:textSize="37dp" />
+        </android.support.v7.widget.CardView>
+
+
+    </RelativeLayout>
+
+    <!--MAKE THE FONT WIDER OVER HERE-->
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Welcome to the Information\n                 System App"
+        android:textColor="#d7a42b"
+        android:textSize="31dp"
+        android:textStyle="bold" />
+
+
+        <!--This is the part that should fade in after a while. Hello should also fade in as well. (Hello is above)-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/holder"
+        android:layout_width="500dp"
+        android:layout_height="410dp"
+        android:layout_below="@id/welcome"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="54dp"
+        android:background="#e27863"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="5dp">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/changeback"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#e27863"
+
+            app:cardCornerRadius="25dp">
+
+            <TextView
+                android:id="@+id/aboutapp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="7dp"
+                android:text="@string/about"
+                android:textColor="#ff9100"
+                android:textSize="26dp" />
+
+            <TextView
+                android:id="@+id/appdescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/aboutapp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="48dp"
+                android:textColor="#cc5959"
+                android:text="      The purpose of this app is to serve as an information system for senior citizens with disabilities and diseases, particularly Alzheimer's. This app functions by requiring new visitors, like you, to create an account, entering information about their relation to the resident as well as a description of themselves in addition to other details.\n\n      When an existing visitor signs in, the resident and caretaker of the resident get notified of their arrival and furthermore, the resident will receive information about that visitor as well as a picture of the visitor to help them understand who is visiting."
+                android:textAlignment="textStart"
+                android:lineSpacingExtra="3dp"
+                android:textSize="20dp" />
+
+        </android.support.v7.widget.CardView>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="28dp"
+        android:background="#ffffff"
+
+        app:cardCornerRadius="8dp"
+        app:cardElevation="5dp">
+
+        <Button
+            android:id="@+id/gotomainactivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F00"
+            android:paddingBottom="11dp"
+
+            android:paddingLeft="18dp"
+            android:paddingRight="19dp"
+            android:paddingTop="8dp"
+            android:text="Continue"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="28dp"
+
+            />
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

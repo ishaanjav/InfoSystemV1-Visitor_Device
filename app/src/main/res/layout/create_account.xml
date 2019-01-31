@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateAccount">
+
+
+    <TextView
+        android:id="@+id/createtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Account Info"
+        android:textColor="#168d29"
+        android:textSize="30sp"
+
+        />
+
+    <TextView
+        android:id="@+id/errortext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/createtitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#F00"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/nametext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/errortext"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="10dp"
+
+        android:text="*Enter your full name:"
+        android:theme="@style/CreateAccount" />
+
+    <EditText
+        android:id="@+id/nameedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/errortext"
+        android:layout_marginLeft="294dp"
+        android:layout_marginTop="2dp"
+
+        android:cursorVisible="true"
+        android:ems="10"
+        android:hint=""
+        android:inputType="textPersonName|textCapWords"
+        android:textColor="#36a817"
+
+        android:textCursorDrawable="@null"
+
+        android:theme="@style/userinfo" />
+
+
+    <TextView
+        android:id="@+id/usernametext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nametext"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="25dp"
+        android:text="*Create a username:"
+        android:theme="@style/CreateAccount" />
+
+    <ImageView
+        android:id="@+id/usernamehelp"
+        android:layout_width="28dp"
+        android:layout_height="27dp"
+        android:layout_below="@id/nametext"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="27dp"
+        android:layout_toRightOf="@id/usernametext"
+        app:srcCompat="@drawable/helpicon" />
+
+    <EditText
+        android:id="@+id/usernameedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nametext"
+        android:layout_marginLeft="294dp"
+
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:hint=""
+        android:inputType="textPersonName"
+        android:textColor="#36a817"
+
+        android:textCursorDrawable="@null"
+
+        android:theme="@style/userinfo" />
+
+    <TextView
+        android:id="@+id/passwordtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usernameedit"
+        android:layout_marginLeft="22dp"
+
+        android:layout_marginTop="50dp"
+        android:text="*Create a password:"
+        android:theme="@style/CreateAccount" />
+
+    <ImageView
+        android:id="@+id/passwordhelp"
+        android:layout_width="28dp"
+        android:layout_height="27dp"
+        android:layout_below="@id/usernameedit"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="54dp"
+        android:layout_toRightOf="@id/passwordtext"
+        app:srcCompat="@drawable/helpicon" />
+
+
+    <EditText
+        android:id="@+id/passwordedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usernameedit"
+        android:layout_marginLeft="294dp"
+        android:layout_marginTop="38dp"
+        android:ems="10"
+        android:hint=""
+        android:inputType="textPassword"
+        android:textColor="#36a817"
+        android:textCursorDrawable="@null"
+
+        android:theme="@style/userinfo" />
+
+    <ImageView
+        android:id="@+id/showpassword"
+        android:layout_width="50sp"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/usernameedit"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="44dp"
+        app:srcCompat="@drawable/showpassword" />
+
+    <TextView
+        android:id="@+id/confirmpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordtext"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="30dp"
+        android:text="*Confirm your password:"
+        android:theme="@style/CreateAccount" />
+
+
+    <EditText
+        android:id="@+id/confirmedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordtext"
+        android:layout_marginLeft="294dp"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="#36a817"
+        android:textCursorDrawable="@null"
+
+        android:theme="@style/userinfo" />
+
+
+    <ImageView
+        android:id="@+id/showconfirm"
+        android:layout_width="50sp"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/passwordtext"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="28dp"
+        app:srcCompat="@drawable/showpassword" />
+
+    <TextView
+        android:id="@+id/passwordstrength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confirmedit"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="17dp"
+        android:text="Password Strength:"
+        android:textColor="#15a313"
+        android:textSize="19sp" />
+
+    <ImageView
+        android:id="@+id/strengthhelp"
+        android:layout_width="25sp"
+        android:layout_height="24sp"
+        android:layout_below="@id/confirmedit"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="18dp"
+        android:layout_toRightOf="@id/passwordstrength"
+        app:srcCompat="@drawable/helpicon" />
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="211dp"
+        android:layout_height="17dp"
+        android:layout_below="@+id/confirmedit"
+        android:layout_marginBottom="35dp"
+        android:layout_marginLeft="43dp"
+
+        android:layout_marginTop="22dp"
+        android:layout_toRightOf="@+id/strengthhelp"
+        app:cardCornerRadius="9dp"
+        app:cardElevation="4dp">
+
+        <RelativeLayout
+            android:id="@+id/rl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#e7bebe">
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="210dp"
+        android:layout_height="10dp"
+        android:layout_below="@id/card"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="-17dp"
+        android:layout_toRightOf="@id/strengthhelp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="4dp">
+
+        <RelativeLayout
+            android:id="@+id/right"
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:background="@color/darkred">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="35dp"
+
+            android:background="@color/low1">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="70dp"
+
+            android:background="@color/low2">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="105dp"
+
+            android:background="@color/low3">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="140dp"
+            android:background="@color/low4">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="175dp"
+            android:background="@color/lo25">
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+    <ImageView
+        android:id="@+id/phonehelp"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/passwordstrength"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="68dp"
+        app:srcCompat="@drawable/helpicon" />
+    />
+
+    <TextView
+        android:id="@+id/phonetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordstrength"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="70dp"
+        android:layout_toRightOf="@id/phonehelp"
+        android:text="Phone Number:"
+        android:theme="@style/CreateAccount" />
+
+    <EditText
+        android:id="@+id/phoneedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordstrength"
+        android:layout_marginLeft="294dp"
+
+        android:layout_marginTop="58dp"
+
+        android:ems="10"
+        android:inputType="phone"
+        android:textColor="#36a817"
+        android:textCursorDrawable="@null"
+
+        android:theme="@style/userinfo" />
+
+    <CheckBox
+        android:id="@+id/phonecheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phoneedit"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="13dp"
+        android:buttonTint="#0ff664"
+        android:text=" Send my account info to this phone number"
+        android:textColor="#048264"
+        android:textSize="20sp" />
+
+
+    <ImageView
+        android:id="@+id/emailhelp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/phonecheck"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="41dp"
+        app:srcCompat="@drawable/helpicon" />
+
+    <TextView
+        android:id="@+id/emailtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phonecheck"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@id/emailhelp"
+        android:text="Email:"
+        android:theme="@style/CreateAccount" />
+
+    <EditText
+        android:id="@+id/emailedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phonecheck"
+
+        android:layout_marginLeft="294dp"
+
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="#36a817"
+
+        android:textCursorDrawable="@null"
+        android:theme="@style/userinfo" />
+
+    <CheckBox
+        android:id="@+id/emailcheckbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailedit"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="13dp"
+        android:buttonTint="#0ff664"
+        android:text=" Send my account info to to this email address."
+        android:textColor="#048264"
+        android:textSize="20sp" />
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="60dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="8dp">
+
+        <Button
+            android:id="@+id/nextpage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="#187408"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:text="Go to Next Page"
+            android:textColor="#50fd5b"
+            android:textSize="19sp" />
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="55dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="8dp">
+
+        <Button
+            android:id="@+id/previouspage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="#50fd5b"
+            android:paddingBottom="10dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:text="Go to Previous Page"
+            android:textColor="#187408"
+            android:textSize="19sp" />
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

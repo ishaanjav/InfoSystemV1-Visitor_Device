@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Info System V1</string>
+    <string name="here"><u><b>Login Page for Regular Visitors</b></u></string>
+    <string name = "otherlogin"><b>Sign In For Workers</b></string>
+    <string name = "successfull"><b>Edit Your Account Info!</b></string>
+    <string-array name="country_arrays">
+        <item>Family</item>
+        <item>Friend</item>
+        <item>Business</item>
+        <item>Other</item>
+    </string-array>
+    <string name = "welcome"><b>Welcome to the Information\n\tSystem App</b></string>
+    <string name="chooseone">Choose one from below</string>
+    <string name = "about"><u>About This App</u></string>
+    <string name="title"><u><b>Initial Setup</b></u></string>
+    <string name = "choose">Choose one of the below</string>
+    <string name = "congratulations"><u><b>Congratulations!</b></u></string>
+    <string-array name="device">
+        <item>Visitor Device</item>
+        <item>Caretaker Device</item>
+        <item>Resident Device</item>
+
+    </string-array>
+    <string name="logout"><u>Log Out</u></string>
+    <string-array name="servicetype">
+        <item>*What is Your Service?</item>
+        <item>House Maintenance</item>
+        <item>Lawn Maintenance</item>
+        <item>Delivery</item>
+        <item>Other</item>
+
+    </string-array>
+    <string name = "service">What service are you providing?</string>
+</resources>

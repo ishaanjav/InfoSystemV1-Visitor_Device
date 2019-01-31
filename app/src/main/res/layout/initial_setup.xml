@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffefc"
+    tools:context=".InitialSetup">
+
+    <TextView
+        android:id="@+id/initialsetuptitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="@string/title"
+        android:textColor="#ff6f00"
+        android:textSize="31dp" />
+
+    <TextView
+        android:id="@+id/choosetitile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/initialsetuptitle"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="45dp"
+        android:text="Choose which device this is"
+        android:textColor="#F00"
+        android:textSize="25dp" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/confirming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/initialsetuptitle"
+        android:layout_marginRight="26dp"
+        android:layout_marginTop="59dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="3dp">
+
+        <Button
+            android:id="@+id/clicktoconfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="#fad632"
+            android:padding="10dp"
+            android:text="Click to\nConfirm"
+            android:textColor="#F00"
+            android:textSize="18sp" />
+    </android.support.v7.widget.CardView>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/choosetitile"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:prompt="@string/choose"
+        android:textSize="20sp">
+
+    </Spinner>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/realholder"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        app:cardCornerRadius="35dp">
+
+        <RelativeLayout
+            android:id="@+id/inflaterholder"
+            android:layout_width="500dp"
+            android:layout_height="wrap_content"
+            android:background="#febaba"
+
+            >
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <RelativeLayout
+        android:id="@+id/card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="12dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#e0a3a3"
+                android:paddingBottom="9dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="8dp"
+                android:text="Hello!"
+                android:textColor="#a60303"
+
+                android:textSize="37dp" />
+        </android.support.v7.widget.CardView>
+
+
+    </RelativeLayout>
+
+    <!--MAKE THE FONT WIDER OVER HERE-->
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Welcome to the Information\n                 System App"
+        android:textColor="#d7a42b"
+        android:textSize="31dp"
+        android:textStyle="bold" />
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/welcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="100dp"
+        app:cardElevation="3dp">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/colorchange"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fcbc78"
+            app:cardCornerRadius="25dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/infoimage" />
+        </android.support.v7.widget.CardView>
+    </android.support.v7.widget.CardView>
+
+    <!--This is the part that should fade in after a while. Hello should also fade in as well. (Hello is above)-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/holder"
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/image"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="54dp"
+        android:background="#fefefe"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="4dp">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/changeback"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="25dp">
+
+            <TextView
+                android:id="@+id/aboutapp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="7dp"
+                android:text="@string/about"
+                android:textColor="#ffc400"
+                android:textSize="26dp" />
+
+            <TextView
+                android:id="@+id/appdescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/aboutapp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="48dp"
+                android:text="      The purpose of this app is to serve as an information system for senior citizens with disabilities and diseases, particularly Alzheimer's. This app functions by requiring visitors to create an account, entering information about their relation to the resident as well as a description of themselves in addition to other details."
+                android:textAlignment="textStart"
+                android:textSize="19dp" />
+
+        </android.support.v7.widget.CardView>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="28dp"
+        android:background="#ffffff"
+
+        app:cardCornerRadius="8dp"
+        app:cardElevation="5dp">
+
+        <Button
+            android:id="@+id/InitialSetup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F00"
+            android:paddingBottom="9dp"
+
+            android:paddingLeft="18dp"
+            android:paddingRight="19dp"
+            android:paddingTop="8dp"
+            android:text="Continue to\n Setup"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+
+            />
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>
