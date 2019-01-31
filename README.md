@@ -56,6 +56,9 @@ There are 2 pages where visitors can create pages by pressing on "New Visitor? C
 
 On the second page, users enter a **description** of themselves, *which will be read to the resident*, as well as their relation to the resident such as friend, family, etc. This is also where users choose the **facial recognition option** for signing in, *which is optional*. What is mandatory, however, is taking a picture of the visitor for the resident to view each time the visitor signs in.
 
-After filling in the information on the second page, users go to a confirmation page which states that their account has been sent for approval by their caretkaer. If they choose one of the options to have their account information sent to them, at this time it will be sent.
+After filling in the information on the second page, users go to a **confirmation page** which states that their account has been sent for approval by the caretaker. If they choose one of the options to have their account information sent to them, at this time it will be sent.
 
+----- 
+# Setup
+The app makes use of software such as the [**Microsoft Face API**](https://azure.microsoft.com/en-us/services/cognitive-services/face/), [**Firebase**](https://firebase.google.com/), and **Weka's Machine Learning Library for Java**. 
 
