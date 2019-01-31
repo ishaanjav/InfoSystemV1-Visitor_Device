@@ -47,9 +47,10 @@ Underneath the sign-in section for frequent visitors is the **log out** section.
 Finally, there is a sign-in section at the bottom for workers who may not be visiting frequently or more than once. This section is useful for the caretaker because workers sign in with their company's name, service they're providing, and their own name (optional). The caretaker can view this information on their own app in a page called "Log of Events". *The Caretaker app's [repository]() can be found [here]().*
 ### Link ABOVE
 
-<img src="https://github.com/ishaanjav/InfoSystemV1_-_Visitor_Device/blob/master/Create%20Account%20Page1.jpeg" align="left" width="250">
-<img src="https://github.com/ishaanjav/InfoSystemV1_-_Visitor_Device/blob/master/Create%20Account%20Page2.jpeg" align="right" width="250">
-
+<p>
+  <img src="https://github.com/ishaanjav/InfoSystemV1_-_Visitor_Device/blob/master/Create%20Account%20Page1.jpeg" align="right " width="250">
+  <img src="https://github.com/ishaanjav/InfoSystemV1_-_Visitor_Device/blob/master/Create%20Account%20Page2.jpeg" align="right" width="250">
+<p/>
 
 ### Create Account Page
 
