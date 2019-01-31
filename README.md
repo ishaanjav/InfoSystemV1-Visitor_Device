@@ -60,5 +60,13 @@ After filling in the information on the second page, users go to a **confirmatio
 
 ----- 
 # Setup
-The app makes use of software such as the [**Microsoft Face API**](https://azure.microsoft.com/en-us/services/cognitive-services/face/), [**Firebase**](https://firebase.google.com/), and **Weka's Machine Learning Library for Java**. 
+The app makes use of software such as the [**Microsoft Face API**](https://azure.microsoft.com/en-us/services/cognitive-services/face/), [**Firebase**](https://firebase.google.com/), and [**Weka's Machine Learning Library for Java**](https://sourceforge.net/projects/weka/). USES:
+- Firebase: 
+   * Storing user's account details and pictures.
+   * Storing events such as visitors signing in or failed logins.
+- Microsoft Face API and Weka"
+   * Estimating the age and gender of visitors.
+   * Using the KNN, SVC, and Decision Tree Classification Algorithms as well as a Neural Network to train on visitor's facial data in order to implement facial recognition.
+   
+Weka's jar files are included in this repository and Firebase is used through the `google-service.json` file. **However, you must use your own Microsoft Face API Key in this app in order to use the facial recognition.** Below, you can find steps about getting the Face API Key for free and using it in the app by changing 2 lines of code.
 
