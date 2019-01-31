@@ -22,7 +22,7 @@ Because this app has an important purpose of helping those with Alzheimer's and 
 - 2 for creating an account
 - 1 for confirming that the account has been sent for approval.
 
-### Features of This App
+### Features of this App
 Features and purposes of this app include, but are not limited to:
 - New visitors creating accounts for the caretaker to approve.
 - Visitors receiving their account information if they forget their usernames and passwords.
@@ -60,13 +60,45 @@ After filling in the information on the second page, users go to a **confirmatio
 
 ----- 
 # Setup
-The app makes use of software such as the [**Microsoft Face API**](https://azure.microsoft.com/en-us/services/cognitive-services/face/), [**Firebase**](https://firebase.google.com/), and [**Weka's Machine Learning Library for Java**](https://sourceforge.net/projects/weka/). USES:
+The app makes use of software such as the [**Microsoft Face API**](https://azure.microsoft.com/en-us/services/cognitive-services/face/), [**Firebase**](https://firebase.google.com/), and [**Weka's Machine Learning Library for Java**](https://sourceforge.net/projects/weka/).:
 - Firebase: 
    * Storing user's account details and pictures.
    * Storing events such as visitors signing in or failed logins.
-- Microsoft Face API and Weka"
+- Microsoft Face API and Weka
    * Estimating the age and gender of visitors.
-   * Using the KNN, SVC, and Decision Tree Classification Algorithms as well as a Neural Network to train on visitor's facial data in order to implement facial recognition.
+   * Using the KNN, SVC, and Decision Tree Classification Algorithms as well as a Neural Network to train on visitors' facial data in order to implement facial recognition.
    
-Weka's jar files are included in this repository and Firebase is used through the `google-service.json` file. **However, you must use your own Microsoft Face API Key in this app in order to use the facial recognition.** Below, you can find steps about getting the Face API Key for free and using it in the app by changing 2 lines of code.
+Weka's jar files are included in this repository and Firebase is used through the `google-service.json` file. **However, you must use your own Microsoft Face API Key in this app in order to use the facial recognition.** [Below](#making-the-azure-account), you can find steps about getting the Face API Key for free and using it in the app by changing 2 lines of code.
+
+## Making the Azure Account
+In order to run the face dectection and analysis, you must get an API Subscription Key from the Azure Portal. [This page](https://azure.microsoft.com/en-us/services/cognitive-services/face/) by Microsoft provides the features and capabilities of the Face API. **You can create a free Azure account that doesn't expire at [this link here](https://azure.microsoft.com/en-us/try/cognitive-services/?api=face-api) by clicking on the "Get API Key" button and choosing the option to create an Azure account**. 
+## Getting the Face API Key from Azure Portal
+Once you have created your account, head to the [Azure Portal](https://portal.azure.com/#home). Follow these steps:
+1. Click on **"Create a resource"** on the left side of the portal.
+2. Underneath **"Azure Marketplace"**, click on the **"AI + Machine Learning"** section. 
+3. Now, under **"Featured"** you should see **"Face"**. Click on that.
+4. You should now be at [this page](https://portal.azure.com/#create/Microsoft.CognitiveServicesFace). **Fill in the required information and press "Create" when done**.
+5. Now, click on **"All resources"** on the left hand side of the Portal.
+6. Click on the **name you gave the API**.
+7. Underneath **"Resource Management"**, click on **"Manage Keys"**.
+
+<p align="center">
+  <img width="900" src="https://github.com/ishaanjav/Face_Analyzer/blob/master/Azure-FaceAPI%20Key.PNG">
+  <td>Hi</td>
+</p>
+
+You should now be able to see two different subscription keys that you can use. Follow the [additional instructions](#using-the-api-key-in-the-app) to see how to [use the API Key in the app.](#using-the-api-key-in-the-app)
+
+## Using the API Key in the App
+To use the API Key in the app, you need to only change 2 lines of code, one in [`MainActivity.java`](https://github.com/ishaanjav/InfoSystemV1_-_Visitor_Device/blob/master/app/src/main/java/com/example/anany/informationsystemv1/MainActivity.java) and the other in [`CreateAccount2.java`](https://github.com/ishaanjav/InfoSystemV1_-_Visitor_Device/blob/master/app/src/main/java/com/example/anany/informationsystemv1/CreateAccount2.java)
+On lines 176 and 145 of `MainActivity.java` and `CreateAccount2.java`, respectively, you should see the following line:
+    
+    faceServiceClient = new FaceServiceRestClient("<YOUR API ENDPOINT HERE>", "<YOUR API KEY HERE>");
+Replace `<YOUR API SUBSCRIPTION KEY>` with one of your 2 keys from the [Azure Portal](https://azure.microsoft.com/Account/Portal). *(If you haven't gotten your API Key yet, read [this section](#making-the-azure-account))*. `<YOUR ENDPOINT HERE>` should be replaced with one of the following examples from [this API Documentation link](https://westus.dev.cognitive.microsoft.com/docs/services/563879b61984550e40cbbe8d/operations/563879b61984550f30395236). The format should be similar to: 
+  
+    "https://<LOCATION>/face/v1.0"
+  
+where `<LOCATION>` should be replaced with something like `uksouth.api.cognitive.microsoft.com`. All of these can be found, listed at [this link](https://westus.dev.cognitive.microsoft.com/docs/services/563879b61984550e40cbbe8d/operations/563879b61984550f30395236).
+
+
 
