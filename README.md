@@ -13,7 +13,7 @@ Before being able to use their account to sign in to the system, the visitor mus
 
 -----
 
-## Usage
+# Usage
 Because this app has an important purpose of helping those with Alzheimer's and dementia, it is not as simple as some of [my other apps](https://github.com/ishaanjav). The app has multiple pages:
 
 - 1 for setup
@@ -21,8 +21,8 @@ Because this app has an important purpose of helping those with Alzheimer's and 
 - 1 for "About This App"
 - 2 for creating an account
 - 1 for confirming that the account has been sent for approval.
-
-### Features of this App
+###### The process of [setting up](#setup) the app can be found [here](#setup)
+## Features of this App
 Features and purposes of this app include, but are not limited to:
 - New visitors creating accounts for the caretaker to approve.
 - Visitors receiving their account information if they forget their usernames and passwords.
@@ -35,7 +35,7 @@ Features and purposes of this app include, but are not limited to:
    * account creations by new visitors
    * failed logins
 **The two most important pages can be considered the Login Page and Create Account pages.*Information about those pages can be found below.***
-### Login Page
+## Login Page
 <img src = "https://github.com/ishaanjav/InfoSystemV1_-_Visitor_Device/blob/master/Sign%20In%20Process.gif" align="right" width="330">
 
 The image on the right shows the Login Page. There is an option for new visitors to **create an account** by clicking on the text. Additionally, if a user has **forgotten their account details**, they can click on the "Forgot Your Password" text to enter their username and their account info will be sent to them with the email address/phone number they provided when creating an account. 
@@ -45,9 +45,9 @@ For visitors who want to sign in, there are two options, one is through the **us
 Underneath the sign-in section for frequent visitors is the **log out** section. Visitors simply have to tap on their name in the "Log Out" Section to log out. Their name is added to the `ListView` after signing in.
 
 Finally, there is a sign-in section at the bottom for workers who may not be visiting frequently or more than once. This section is useful for the caretaker because workers sign in with their company's name, service they're providing, and their own name (optional). The caretaker can view this information on their own app in a page called "Log of Events". *The Caretaker app's [repository]() can be found [here]().*
-### Link ABOVE
+## Link ABOVE
 
-### Create Account Page
+## Create Account Page
 
   <img src="https://github.com/ishaanjav/InfoSystemV1_-_Visitor_Device/blob/master/Create%20Account%20Page1.jpeg" align="right" width="250">
   <img src="https://github.com/ishaanjav/InfoSystemV1_-_Visitor_Device/blob/master/Create%20Account%20Page2.jpeg" align="right" width="250">
@@ -56,7 +56,15 @@ There are 2 pages where visitors can create pages by pressing on "New Visitor? C
 
 On the second page, users enter a **description** of themselves, *which will be read to the resident*, as well as their relation to the resident such as friend, family, etc. This is also where users choose the **facial recognition option** for signing in, *which is optional*. What is mandatory, however, is taking a picture of the visitor for the resident to view each time the visitor signs in.
 
+<img src="https://github.com/ishaanjav/InfoSystemV1_-_Visitor_Device/blob/master/Creating%20An%20Account.gif" align="left" width="260">
+
 After filling in the information on the second page, users go to a **confirmation page** which states that their account has been sent for approval by the caretaker. If they choose one of the options to have their account information sent to them, at this time it will be sent.
+
+<br/>
+
+***The gif on the left shows the full process of creating an account.***
+
+<br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
 
 ----- 
 # Setup
