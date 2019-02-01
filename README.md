@@ -15,13 +15,13 @@ Before being able to use their account to sign in to the system, the visitor mus
 -----
 
 # Usage
-**Because this app has an important purpose of helping those with Alzheimer's and dementia, it is not as simple as some of [my other apps](https://github.com/ishaanjav)**. The app has multiple pages:
+**Because this app has an important purpose of helping those with Alzheimer's and dementia, it is not as simple as some of [my other apps](https://github.com/ishaanjav)**. The process of [setting up](#setup) the app can be found [here](#setup). Below is a list of the app's pages:
 
 - 1 for **initial setup**
-- 1 for **logging in* to the system
+- 1 for **logging in** to the system
 - 2 for **creating an account**
 - 1 for **confirming** that the account has been sent for approval.
-###### The process of [setting up](#setup) the app can be found [here](#setup)
+
 ## Features of this App
 Features and purposes of this app include, but are not limited to:
 - New visitors **creating accounts** for the caretaker to approve.
@@ -34,7 +34,7 @@ Features and purposes of this app include, but are not limited to:
    * sign-ins
    * account creations by new visitors
    * failed logins
-**The two most important pages can be considered the Login Page and Create Account pages.*Information about those pages can be found below.***
+**The two most important pages can be considered the [Login Page](#login-page) and [Create Account](#create-account-page) pages. *Information about those pages can be found below.***
 ## Login Page
 <img src = "https://github.com/ishaanjav/InfoSystemV1_-_Visitor_Device/blob/master/Sign%20In%20Process.gif" align="right" width="330">
 
