@@ -9,28 +9,28 @@ Before being able to use their account to sign in to the system, the visitor mus
 
 **Furthermore, the caretaker is able to view a record of all events that have taken place, empowering them with this information.** For those in the later stages of Alzheimer's, the patient can also view the information about the visitor including useful details like their picture, relation to the patient (family member, friend, etc.), and extended description (a well-explained description of who the visitor is). This gives the patient the ability to understand who is visiting them and be able to respond and act in accordance rather than not know who is visiting them.
 
-###### This app is a part of a system of 3 other apps that function together to accomplish the processes and purposes described above. It is **not** a stand-alone app and is meant to be used in collaboration with the two other apps that can be found at these repositories: CARETAKER APP REPOSITORY, RESIDENT APP RESPOSITORY.
+###### This app is a part of a system of 3 other apps that function together to accomplish the processes and purposes described above. It is **not** a stand-alone app and is meant to be used in collaboration with the two other apps that can be found at these repositories: [CARETAKER APP REPOSITORY](), [RESIDENT APP RESPOSITORY]().
+## LINKS ABOVE
 
 -----
 
 # Usage
-Because this app has an important purpose of helping those with Alzheimer's and dementia, it is not as simple as some of [my other apps](https://github.com/ishaanjav). The app has multiple pages:
+**Because this app has an important purpose of helping those with Alzheimer's and dementia, it is not as simple as some of [my other apps](https://github.com/ishaanjav)**. The app has multiple pages:
 
-- 1 for setup
-- 1 for logging into the system
-- 1 for "About This App"
-- 2 for creating an account
-- 1 for confirming that the account has been sent for approval.
+- 1 for **initial setup**
+- 1 for **logging in* to the system
+- 2 for **creating an account**
+- 1 for **confirming** that the account has been sent for approval.
 ###### The process of [setting up](#setup) the app can be found [here](#setup)
 ## Features of this App
 Features and purposes of this app include, but are not limited to:
-- New visitors creating accounts for the caretaker to approve.
-- Visitors receiving their account information if they forget their usernames and passwords.
-- Visitor sign-ins through usernames and passwords.
-- Visitor sign-ins through facial recognition.
-- Worker sign-ins through a special section at the bottom.
-- Visitor logouts.
-- Notification to caretaker and resident of:
+- New visitors **creating accounts** for the caretaker to approve.
+- Visitors **receiving their account information** if they forget their usernames and passwords.
+- Visitor sign-ins through **usernames and passwords**.
+- Visitor sign-ins through **facial recognition**.
+- **Worker sign-ins** through a special section at the bottom.
+- Visitor **logouts**.
+- **Notification** to caretaker and resident of:
    * sign-ins
    * account creations by new visitors
    * failed logins
