@@ -36,7 +36,7 @@ Features and purposes of this app include, but are not limited to:
    * failed logins
 **The two most important pages can be considered the Login Page and Create Account pages.*Information about those pages can be found below.***
 ### Login Page
-<img src = "https://github.com/ishaanjav/InfoSystemV1_-_Visitor_Device/blob/master/Login%20Page%20Image.jpeg" align="right" width="330">
+<img src = "https://github.com/ishaanjav/InfoSystemV1_-_Visitor_Device/blob/master/Sign%20In%20Process.gif" align="right" width="330">
 
 The image on the right shows the Login Page. There is an option for new visitors to **create an account** by clicking on the text. Additionally, if a user has **forgotten their account details**, they can click on the "Forgot Your Password" text to enter their username and their account info will be sent to them with the email address/phone number they provided when creating an account. 
 
