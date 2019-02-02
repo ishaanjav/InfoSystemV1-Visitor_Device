@@ -9,7 +9,7 @@ Before being able to use their account to sign in to the system, the visitor mus
 
 **Furthermore, the caretaker is able to view a record of all events that have taken place, empowering them with this information.** For those in the later stages of Alzheimer's, the patient can also view the information about the visitor including useful details like their picture, relation to the patient (family member, friend, etc.), and extended description (a well-explained description of who the visitor is). This gives the patient the ability to understand who is visiting them and be able to respond and act in accordance rather than not know who is visiting them.
 
-###### This app is a part of a system of 3 other apps that function together to accomplish the processes and purposes described above. It is **not** a stand-alone app and is meant to be used in collaboration with the two other apps that can be found at these repositories: [CARETAKER APP REPOSITORY](), [RESIDENT APP RESPOSITORY]().
+###### This app is a part of a system of 3 other apps that function together to accomplish the processes and purposes described above. It is **not** a stand-alone app and is meant to be used in collaboration with the two other apps that can be found at these repositories: [CARETAKER APP REPOSITORY](), [RESIDENT APP RESPOSITORY](https://github.com/ishaanjav/InfoSystemV1-Resident_Device).
 ## LINKS ABOVE
 
 -----
@@ -108,7 +108,7 @@ Replace `<YOUR API SUBSCRIPTION KEY>` with one of your 2 keys from the [Azure Po
   
 where `<LOCATION>` should be replaced with something like `uksouth.api.cognitive.microsoft.com`.
 
-#### With these changes made, the app should function as intended. However, it is not meant to be a stand-alone app and is intended to be used with the following apps: [Caretaker App Repository](). [Resident App Repository]().
+#### With these changes made, the app should function as intended. However, it is not meant to be a stand-alone app and is intended to be used with the following apps: [Caretaker App Repository](). [Resident App Repository](https://github.com/ishaanjav/InfoSystemV1-Resident_Device).
 ## Links ABOVE
 ------
 ## Conclusion
@@ -117,7 +117,7 @@ This app has many applications whether it be in the homes of individuals with Al
 It is part of my project that I call Info System V1, *(Information System Version 1)*, and it functions alongside 2 other apps:
 
 - [**Caretaker App Repository**]()
-- [**Resident App Repository**]()
+- [**Resident App Repository**](https://github.com/ishaanjav/InfoSystemV1-Resident_Device)
 
 ## Links ABOVE
 
