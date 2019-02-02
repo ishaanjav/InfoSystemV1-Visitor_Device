@@ -1,7 +1,6 @@
 # Info System V1 - Visitor Device
 
 ## Purpose/Background
-<img align="right" src="https://github.com/ishaanjav/InfoSystemV1_-_Visitor_Device/blob/master/Login%20Page.gif" width =360>
 
 **The purpose of this Android application is to serve as part of a system of 3 apps that collects information about visits to the house. The system is intended to serve at the homes of those with declining cognitive abilities such as patients with Alzheimer's or other types of dementias because these patients have difficulty recognizing faces and therefore have trouble identifying the visitor that has come to see them.** This app, in particular, is used to validate visitors who are logging in to the system through facial recognition, or a username and password. Once a visitor has signed into the app, the Alzheimer's patient and their caretaker are notified of the visitor's arrival. Furthermore, the visitor's data is stored in Firebase so that when they sign in, the patient gets to see the name of the visitor as well as their information, which includes their name, picture, contact details, relation to the patient, and extended description. The patient also receives a picure so that they can better identify the visitor.
 
@@ -9,10 +8,14 @@ Before being able to use their account to sign in to the system, the visitor mus
 
 **Furthermore, the caretaker is able to view a record of all events that have taken place, empowering them with this information.** For those in the later stages of Alzheimer's, the patient can also view the information about the visitor including useful details like their picture, relation to the patient (family member, friend, etc.), and extended description (a well-explained description of who the visitor is). This gives the patient the ability to understand who is visiting them and be able to respond and act in accordance rather than not know who is visiting them.
 
+### Possible Applications:
+- **Homes of individuals with Alzheimer's or dementia:** The Information System would be very effective at individual homes of patients. The patient's caretaker would be able to approve visitors' accounts before they start using them and both the patient and caretaker would be aided: the patient by getting information about visitors and the caretaker by being able to view a log of events in their [own app]()
+- **Old-age homes:** The Information System can serve a great purpose in residential homes for the elderly because it would provide a method of authenticating visitors before they could enter the home. Additionally, the social workers would be able to verify visitors' accounts.
 ###### This app is a part of a system of 3 other apps that function together to accomplish the processes and purposes described above. It is **not** a stand-alone app and is meant to be used in collaboration with the two other apps that can be found at these repositories: [CARETAKER APP REPOSITORY](), [RESIDENT APP REPOSITORY](https://github.com/ishaanjav/InfoSystemV1-Resident_Device).
 ## LINKS ABOVE
 
 -----
+<img align="right" src="https://github.com/ishaanjav/InfoSystemV1_-_Visitor_Device/blob/master/Login%20Page.gif" width =360>
 
 # Usage
 **Because this app has an important purpose of helping those with Alzheimer's and dementia, it is not as simple as some of [my other apps](https://github.com/ishaanjav)**. The process of [setting up](#setup) the app can be found [here](#setup). Below is a list of the app's pages:
@@ -34,6 +37,7 @@ Features and purposes of this app include, but are not limited to:
    * sign-ins
    * account creations by new visitors
    * failed logins
+
 **The two most important pages can be considered the [Login Page](#login-page) and [Create Account](#create-account-page) pages. *Information about those pages can be found below.***
 ## Login Page
 <img src = "https://github.com/ishaanjav/InfoSystemV1_-_Visitor_Device/blob/master/Sign%20In%20Process.gif" align="right" width="330">
