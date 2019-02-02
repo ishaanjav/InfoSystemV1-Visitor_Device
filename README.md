@@ -9,15 +9,16 @@ Before being able to use their account to sign in to the system, the visitor mus
 **Furthermore, the caretaker is able to view a record of all events that have taken place, empowering them with this information.** For those in the later stages of Alzheimer's, the patient can also view the information about the visitor including useful details like their picture, relation to the patient (family member, friend, etc.), and extended description (a well-explained description of who the visitor is). This gives the patient the ability to understand who is visiting them and be able to respond and act in accordance rather than not know who is visiting them.
 
 ### Possible Applications:
-- **Homes of individuals with Alzheimer's or dementia:** The Information System would be very effective at individual homes of patients. The patient's caretaker would be able to approve visitors' accounts before they start using them and both the patient and caretaker would be aided: the patient by getting information about visitors and the caretaker by being able to view a log of events in their [own app]()
+- **Homes of individuals with Alzheimer's or dementia:** The Information System would be very effective at individual homes of patients. The patient's caretaker would be able to approve visitors' accounts before they start using them and both the patient and caretaker would be aided: the patient by getting information about visitors and the caretaker by being able to view a log of events in their [own app]().
 - **Old-age homes:** The Information System can serve a great purpose in residential homes for the elderly because it would provide a method of authenticating visitors before they could enter the home. Additionally, the social workers would be able to verify visitors' accounts.
 ###### This app is a part of a system of 3 other apps that function together to accomplish the processes and purposes described above. It is **not** a stand-alone app and is meant to be used in collaboration with the two other apps that can be found at these repositories: [CARETAKER APP REPOSITORY](), [RESIDENT APP REPOSITORY](https://github.com/ishaanjav/InfoSystemV1-Resident_Device).
 ## LINKS ABOVE
 
 -----
+# Usage
+
 <img align="right" src="https://github.com/ishaanjav/InfoSystemV1_-_Visitor_Device/blob/master/Login%20Page.gif" width =360>
 
-# Usage
 **Because this app has an important purpose of helping those with Alzheimer's and dementia, it is not as simple as some of [my other apps](https://github.com/ishaanjav)**. The process of [setting up](#setup) the app can be found [here](#setup). Below is a list of the app's pages:
 
 - 1 for **initial setup**
