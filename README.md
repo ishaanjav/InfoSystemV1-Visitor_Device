@@ -7,10 +7,9 @@
 Before being able to use their account to sign in to the system, the visitor must [create an account](#create-account-page) whereupon their information will be sent to the patient's caretaker for review. Once the caretaker has approved the account, the visitor can use their account to sign in. Additionally, there is also a sign in for workers who may only visit the house once or a few times for a particular service. **By using their account to sign in, the visitor is helping the patient by not only alerting them that a visitor is at the door but by also helping them remember who they are.** **Furthermore, the caretaker is able to view a record of all events that have taken place, empowering them with this information.** 
 
 ### Possible Applications:
-- **Homes of individuals with Alzheimer's or dementia:** The Information System would be very effective at individual homes of patients. The patient's caretaker would be able to approve visitors' accounts before they start using them and both the patient and caretaker would be aided: the patient by getting information about visitors and the caretaker by being able to view a log of events in their [own app]().
+- **Homes of individuals with Alzheimer's or dementia:** The Information System would be very effective at individual homes of patients. The patient's caretaker would be able to approve visitors' accounts before they start using them and both the patient and caretaker would be aided: the patient by getting information about visitors and the caretaker by being able to view a log of events in their [own app](https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device).
 - **Old-age homes:** The Information System can serve a great purpose in residential homes for the elderly because it would provide a method of authenticating visitors before they could enter the home. Additionally, the social workers would be able to verify visitors' accounts.
-###### This app is a part of a system of 3 other apps that function together to accomplish the processes and purposes described above. It is **not** a stand-alone app and is meant to be used in collaboration with the two other apps that can be found at these repositories: [CARETAKER APP REPOSITORY](), [RESIDENT APP REPOSITORY](https://github.com/ishaanjav/InfoSystemV1-Resident_Device).
-## LINKS ABOVE
+###### This app is a part of a system of 3 other apps that function together to accomplish the processes and purposes described above. It is **not** a stand-alone app and is meant to be used in collaboration with the two other apps that can be found at these repositories: [CARETAKER APP REPOSITORY](https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device), [RESIDENT APP REPOSITORY](https://github.com/ishaanjav/InfoSystemV1-Resident_Device).
 
 -----
 # Usage
@@ -47,8 +46,7 @@ For visitors who want to sign in, there are two options, one is through the **us
 
 Underneath the sign-in section for frequent visitors is the **log out** section. Visitors simply have to tap on their name in the "Log Out" Section to log out. Their name is added to the `ListView` after signing in.
 
-Finally, there is a sign-in section at the bottom for workers who may not be visiting frequently or more than once. This section is useful for the caretaker because workers sign in with their company's name, service they're providing, and their own name (optional). The caretaker can view this information on their own app in a page called "Log of Events". *The Caretaker app's [repository]() can be found [here]().*
-## Link ABOVE
+Finally, there is a sign-in section at the bottom for workers who may not be visiting frequently or more than once. This section is useful for the caretaker because workers sign in with their company's name, service they're providing, and their own name (optional). The caretaker can view this information on their own app in a page called "Log of Events". *The Caretaker app's [repository]() can be found [here](https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device).*
 
 ## Create Account Page
 
@@ -114,13 +112,13 @@ where `<LOCATION>` should be replaced with something like `uksouth.api.cognitive
 #### With these changes made, the app should function as intended. However, it is not meant to be a stand-alone app and is intended to be used with the following apps: [Caretaker App Repository](). [Resident App Repository](https://github.com/ishaanjav/InfoSystemV1-Resident_Device).
 ## Links ABOVE
 ------
-## Conclusion
+## Other Information System Apps
 This app has many applications whether it be in the homes of individuals with Alzheimer's or dementia, or in residential homes for the elderly. Because of its ability to not only notify a patient and their caretaker of a visitor, but to also provide information about that visitor and maintain a log of events, this app can be of great assistance. 
 
 It is part of my project that I call Info System V1, *(Information System Version 1)*, and it functions alongside 2 other apps:
 
-- [**Caretaker App Repository**]()
-- [**Resident App Repository**](https://github.com/ishaanjav/InfoSystemV1-Resident_Device)
+- [**Caretaker App Repository:**](https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device) The purpose of this Android application is to serve as part of a system of 3 apps that collect information about visits to the house. This app, in particular, is for the patient's caretaker who can view events that the system logs, approve or decline accounts of new visitors, track the patient if they get lost, and analyze their emotions.
+- [**Resident App Repository:**](https://github.com/ishaanjav/InfoSystemV1-Resident_Device) The purpose of this Android application is to serve as part of a system of 3 apps that collect information about visits to the house. This app in particular provides patients who have the Alzheimer's disease or dementia with information about visitors so that they can better identify and understand who is visiting them.
 
 ## Links ABOVE
 
