@@ -20,7 +20,7 @@ Before being able to use their account to [sign in](#login-page) to the system, 
 
 - 1 for **initial setup**
 - 1 for [**logging in**](#login-page) to the system
-- 2 for [**creating an account**](#create-an-account)
+- 2 for [**creating an account**](#create-account-page)
 - 1 for **confirming** that the account has been sent for approval.
 
 ## Features of this App
