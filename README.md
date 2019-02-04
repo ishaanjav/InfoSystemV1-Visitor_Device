@@ -19,8 +19,8 @@ Before being able to use their account to [sign in](#login-page) to the system, 
 **Because this app has an important purpose of helping those with Alzheimer's and dementia, it is not as simple as some of [my other apps](https://github.com/ishaanjav)**. The process of [setting up](#setup) the app can be found [here](#setup). Below is a list of the app's pages:
 
 - 1 for **initial setup**
-- 1 for **logging in** to the system
-- 2 for **creating an account**
+- 1 for [**logging in**](#login-page) to the system
+- 2 for [**creating an account**](#create-an-account)
 - 1 for **confirming** that the account has been sent for approval.
 
 ## Features of this App
