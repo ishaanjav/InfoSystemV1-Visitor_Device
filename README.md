@@ -109,8 +109,8 @@ Replace `<YOUR API SUBSCRIPTION KEY>` with one of your 2 keys from the [Azure Po
   
 where `<LOCATION>` should be replaced with something like `uksouth.api.cognitive.microsoft.com`.
 
-#### With these changes made, the app should function as intended. However, it is not meant to be a stand-alone app and is intended to be used with the following apps: [Caretaker App Repository](). [Resident App Repository](https://github.com/ishaanjav/InfoSystemV1-Resident_Device).
-## Links ABOVE
+#### With these changes made, the app should function as intended. However, it is not meant to be a stand-alone app and is intended to be used with the following apps: [Caretaker App Repository](https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device). [Resident App Repository](https://github.com/ishaanjav/InfoSystemV1-Resident_Device).
+
 ------
 ## Other Information System Apps
 This app has many applications whether it be in the homes of individuals with Alzheimer's or dementia, or in residential homes for the elderly. Because of its ability to not only notify a patient and their caretaker of a visitor, but to also provide information about that visitor and maintain a log of events, this app can be of great assistance. 
@@ -119,6 +119,3 @@ It is part of my project that I call Info System V1, *(Information System Versio
 
 - [**Caretaker App Repository:**](https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device) The purpose of this Android application is to serve as part of a system of 3 apps that collect information about visits to the house. This app, in particular, is for the patient's caretaker who can view events that the system logs, approve or decline accounts of new visitors, track the patient if they get lost, and analyze their emotions.
 - [**Resident App Repository:**](https://github.com/ishaanjav/InfoSystemV1-Resident_Device) The purpose of this Android application is to serve as part of a system of 3 apps that collect information about visits to the house. This app in particular provides patients who have the Alzheimer's disease or dementia with information about visitors so that they can better identify and understand who is visiting them.
-
-## Links ABOVE
-
